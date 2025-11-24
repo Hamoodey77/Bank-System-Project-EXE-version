@@ -80,3 +80,6 @@ Tip: Back up the .txt files before manual edits.
 
 For questions or improvements, see the repository author (Hamoodey77) on GitHub.
 
+
+## Auto System Update (SOON)
+
