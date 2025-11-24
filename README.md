@@ -13,8 +13,8 @@ C24 Bank System is a simple console-based banking management application provide
 
 ## Repository files (important)
 - C24 Bank System Project.exe — main executable (may appear as BankSystem.exe when renamed).
-- Clear Data Base.exe — utility executable to clear data (if provided).
-- Admin.txt — administrators data file (CSV-style lines).
+- Clear Data Base.exe — utility executable to clear data.
+- Admin.txt — administrators data file.
 - AdminLastID.txt — stores the last admin ID used.
 - Employee.txt — employees data file.
 - EmployeeLastID.txt — stores the last employee ID used.
@@ -63,16 +63,6 @@ Tip: Back up the .txt files before manual edits.
 - Permission errors: try running the EXE with administrator privileges or move the folder to a writable location.
 - Corrupt lines/format issues: open the .txt files and fix formatting (commas, missing fields) or restore from backups.
 
-## Security and limitations
-- This project is intended as a learning/demo tool. Storing sensitive data in plain text is insecure and not suitable for production.
-- No encryption, access control, or secure password storage is implemented.
-- Consider migrating to a proper database and adding secure authentication for production use.
-
-## Suggested next steps (optional)
-- Create initial sample data files and include them in the repo (with non-sensitive demo data).
-- Add a proper README file to the repository root (this file).
-- Consider creating a release with the EXE and a ZIP that includes required .txt files and instructions.
-- Upgrade storage to a database (SQLite) and add stronger password handling.
 
 ## Contact / Author
 For questions or improvements, see the repository author (Hamoodey77) on GitHub.
